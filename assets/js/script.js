@@ -43,6 +43,7 @@ function validaAssunto(){
   if(assunto.value.lenght >=100){
     txtAssunto.innerHTML = 'digite ate 100 caracteres'
     txtAssunto.style.color = 'red'
+    txtAssunto.style.display = 'block'
   }
 else{
   txtAssunto.style.display = 'none' 
